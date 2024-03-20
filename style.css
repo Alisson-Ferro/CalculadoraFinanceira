@@ -1,0 +1,35 @@
+body{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(10, 15, 36);
+}
+
+.header{
+    border-bottom: 3px solid rgb(170, 170, 170);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
+.titulo{
+    color: azure;
+    font-weight: 600;
+}
+
+.navbar{
+    color: aliceblue;
+    font-weight: 600;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
